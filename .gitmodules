@@ -1,0 +1,16 @@
+[submodule "nixos"]
+	path = nixos
+	url = https://github.com/nicolaj-blach/nixos.git
+	branch = modix-config
+[submodule "pi-config"]
+	path = pi-config
+	url = https://github.com/nicolaj-blach/pi-config.git
+	branch = main
+[submodule "quickshell-bar"]
+	path = quickshell-bar
+	url = https://github.com/nicolaj-blach/quickshell-bar.git
+	branch = main
+[submodule "agent-markdown-files"]
+	path = agent-markdown-files
+	url = https://github.com/nicolaj-blach/agent-markdown-files.git
+	branch = main
