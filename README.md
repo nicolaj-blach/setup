@@ -9,7 +9,8 @@ Everything that makes up my machines, as git submodules:
 
 ```sh
 git clone --recursive https://github.com/nicolaj-blach/setup ~/setup
-sudo nixos-rebuild switch --flake ~/setup/nixos#personal-desktop
+sudo nixos-rebuild switch --flake ~/setup/nixos#personal-desktop   # desktop
+sudo nixos-rebuild switch --flake ~/setup/nixos#personal-laptop    # laptop
 ```
 
 `nixos/flake.lock` is the real pin; the submodule commits here are only for cloning.
